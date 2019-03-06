@@ -46,7 +46,7 @@ for j in range(10):
    plot(gato,previsao_gato)
 
 probabilites = classificador.predict(X_test[:600])
-falsePositiveRate,truePositiveRate,thresholds = roc_curve(y_test,probabilites)
+falsePositiveRate,truePositiveRate,thresholds = roc_curve(y_test[:600],probabilites)
 auc_score = auc(falsePositiveRate,truePositiveRate)
 
 plt.plot(falsePositiveRate,truePositiveRate,label = 'AUC Score: '+str(auc_score))
