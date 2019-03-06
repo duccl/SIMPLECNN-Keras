@@ -1,5 +1,5 @@
 # SIMPLECNN-Keras
-   - A simple project of CNN to classify the dataset of the Kaggle "Cats vs Dogs".
+   - A simple project of CNN to classify when the image are a dog or a cat from the dataset of the Kaggle "Cats vs Dogs".
    - *More info about the dataset: https://www.kaggle.com/c/dogs-vs-cats.*
    - Python Version: 3.6.8 - 64 bits.
 
